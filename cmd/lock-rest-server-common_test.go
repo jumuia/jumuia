@@ -24,7 +24,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/minio/minio/internal/dsync"
+	"github.com/jumuia/jumuia/internal/dsync"
 )
 
 // Helper function to create a lock server for testing

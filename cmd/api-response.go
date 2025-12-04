@@ -890,7 +890,7 @@ func generateMultiDeleteResponse(quiet bool, deletedObjects []DeletedObject, err
 
 func writeResponse(w http.ResponseWriter, statusCode int, response []byte, mType mimeType) {
 	// Don't write a response if one has already been written.
-	// Fixes https://github.com/minio/minio/issues/21633
+	// Fixes https://github.com/jumuia/jumuia/issues/21633
 	if headersAlreadyWritten(w) {
 		return
 	}

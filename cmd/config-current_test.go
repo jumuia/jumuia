@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/minio/minio/internal/config"
+	"github.com/jumuia/jumuia/internal/config"
 )
 
 func TestServerConfig(t *testing.T) {

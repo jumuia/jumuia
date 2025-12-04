@@ -24,7 +24,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/minio/minio/internal/s3select/sql"
+	"github.com/jumuia/jumuia/internal/s3select/sql"
 )
 
 func TestNewPReader(t *testing.T) {
