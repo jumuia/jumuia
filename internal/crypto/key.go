@@ -27,8 +27,8 @@ import (
 	"io"
 	"path"
 
-	"github.com/minio/minio/internal/hash/sha256"
-	"github.com/minio/minio/internal/logger"
+	"github.com/jumuia/jumuia/internal/hash/sha256"
+	"github.com/jumuia/jumuia/internal/logger"
 	"github.com/minio/sio"
 )
 

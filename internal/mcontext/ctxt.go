@@ -21,7 +21,7 @@ package mcontext
 // packages in github.com/minio/minio
 
 import (
-	xhttp "github.com/minio/minio/internal/http"
+	xhttp "github.com/jumuia/jumuia/internal/http"
 )
 
 // ContextTraceType represents the type of golang Context key

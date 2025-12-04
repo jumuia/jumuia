@@ -18,15 +18,15 @@
 package cmd
 
 import (
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/config"
-	"github.com/minio/minio/internal/config/compress"
-	xldap "github.com/minio/minio/internal/config/identity/ldap"
-	"github.com/minio/minio/internal/config/identity/openid"
-	"github.com/minio/minio/internal/config/notify"
-	"github.com/minio/minio/internal/config/policy/opa"
-	"github.com/minio/minio/internal/config/storageclass"
-	"github.com/minio/minio/internal/logger"
+	"github.com/jumuia/jumuia/internal/auth"
+	"github.com/jumuia/jumuia/internal/config"
+	"github.com/jumuia/jumuia/internal/config/compress"
+	xldap "github.com/jumuia/jumuia/internal/config/identity/ldap"
+	"github.com/jumuia/jumuia/internal/config/identity/openid"
+	"github.com/jumuia/jumuia/internal/config/notify"
+	"github.com/jumuia/jumuia/internal/config/policy/opa"
+	"github.com/jumuia/jumuia/internal/config/storageclass"
+	"github.com/jumuia/jumuia/internal/logger"
 	"github.com/minio/pkg/v3/quick"
 )
 

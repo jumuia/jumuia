@@ -35,14 +35,14 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/jumuia/jumuia/internal/crypto"
+	"github.com/jumuia/jumuia/internal/etag"
+	"github.com/jumuia/jumuia/internal/hash"
+	"github.com/jumuia/jumuia/internal/hash/sha256"
+	xhttp "github.com/jumuia/jumuia/internal/http"
+	"github.com/jumuia/jumuia/internal/kms"
+	"github.com/jumuia/jumuia/internal/logger"
 	"github.com/minio/kms-go/kes"
-	"github.com/minio/minio/internal/crypto"
-	"github.com/minio/minio/internal/etag"
-	"github.com/minio/minio/internal/hash"
-	"github.com/minio/minio/internal/hash/sha256"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/kms"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/sio"
 )
 

@@ -29,9 +29,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/jumuia/jumuia/internal/crypto"
+	xhttp "github.com/jumuia/jumuia/internal/http"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/internal/crypto"
-	xhttp "github.com/minio/minio/internal/http"
 	xxml "github.com/minio/xxml"
 )
 

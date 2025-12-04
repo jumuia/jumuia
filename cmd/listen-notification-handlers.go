@@ -24,11 +24,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/grid"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/pubsub"
+	"github.com/jumuia/jumuia/internal/event"
+	"github.com/jumuia/jumuia/internal/grid"
+	xhttp "github.com/jumuia/jumuia/internal/http"
+	"github.com/jumuia/jumuia/internal/logger"
+	"github.com/jumuia/jumuia/internal/pubsub"
 	"github.com/minio/mux"
 	"github.com/minio/pkg/v3/policy"
 )

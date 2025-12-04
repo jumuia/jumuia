@@ -40,16 +40,16 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/google/uuid"
 	jsoniter "github.com/json-iterator/go"
+	"github.com/jumuia/jumuia/internal/bucket/lifecycle"
+	"github.com/jumuia/jumuia/internal/bucket/replication"
+	"github.com/jumuia/jumuia/internal/cachevalue"
+	"github.com/jumuia/jumuia/internal/config/storageclass"
 	"github.com/klauspost/filepathx"
 	"github.com/minio/madmin-go/v3"
-	"github.com/minio/minio/internal/bucket/lifecycle"
-	"github.com/minio/minio/internal/bucket/replication"
-	"github.com/minio/minio/internal/cachevalue"
-	"github.com/minio/minio/internal/config/storageclass"
 
-	"github.com/minio/minio/internal/disk"
-	xioutil "github.com/minio/minio/internal/ioutil"
-	"github.com/minio/minio/internal/logger"
+	"github.com/jumuia/jumuia/internal/disk"
+	xioutil "github.com/jumuia/jumuia/internal/ioutil"
+	"github.com/jumuia/jumuia/internal/logger"
 	"github.com/pkg/xattr"
 )
 

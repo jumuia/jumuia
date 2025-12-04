@@ -32,11 +32,11 @@ import (
 
 	"github.com/dchest/siphash"
 	"github.com/google/uuid"
+	"github.com/jumuia/jumuia/internal/dsync"
+	"github.com/jumuia/jumuia/internal/logger"
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/minio-go/v7/pkg/set"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/internal/dsync"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/v3/console"
 	"github.com/minio/pkg/v3/sync/errgroup"
 	"github.com/puzpuzpuz/xsync/v3"

@@ -86,7 +86,7 @@ Reviewers ensure MinIO’s commit history remains a clear, reliable record. Resp
 
 ## Resources
 
-- [MinIO Coding Standards](https://github.com/minio/minio/blob/master/CONTRIBUTING.md)
+- [MinIO Coding Standards](https://github.com/jumuia/jumuia/blob/master/CONTRIBUTING.md)
 - [Effective Commit Messages](https://mislav.net/2014/02/hidden-documentation/)
 - [GitHub PR Tips](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 

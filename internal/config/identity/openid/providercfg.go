@@ -24,10 +24,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/minio/minio/internal/arn"
-	"github.com/minio/minio/internal/config"
-	"github.com/minio/minio/internal/config/identity/openid/provider"
-	xhttp "github.com/minio/minio/internal/http"
+	"github.com/jumuia/jumuia/internal/arn"
+	"github.com/jumuia/jumuia/internal/config"
+	"github.com/jumuia/jumuia/internal/config/identity/openid/provider"
+	xhttp "github.com/jumuia/jumuia/internal/http"
 	xnet "github.com/minio/pkg/v3/net"
 )
 

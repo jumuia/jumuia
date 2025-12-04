@@ -34,9 +34,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/mcontext"
+	xhttp "github.com/jumuia/jumuia/internal/http"
+	"github.com/jumuia/jumuia/internal/logger"
+	"github.com/jumuia/jumuia/internal/mcontext"
 	xnet "github.com/minio/pkg/v3/net"
 )
 

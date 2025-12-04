@@ -22,10 +22,10 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"github.com/jumuia/jumuia/internal/auth"
+	"github.com/jumuia/jumuia/internal/kms"
+	"github.com/jumuia/jumuia/internal/logger"
 	"github.com/minio/madmin-go/v3"
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/kms"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/v3/policy"
 )
 

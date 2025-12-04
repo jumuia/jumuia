@@ -21,8 +21,8 @@ import (
 	"net"
 	"net/http"
 
+	xhttp "github.com/jumuia/jumuia/internal/http"
 	consoleapi "github.com/minio/console/api"
-	xhttp "github.com/minio/minio/internal/http"
 	"github.com/minio/mux"
 	"github.com/minio/pkg/v3/wildcard"
 	"github.com/rs/cors"

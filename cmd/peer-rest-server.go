@@ -35,15 +35,15 @@ import (
 	"time"
 
 	"github.com/dustin/go-humanize"
+	"github.com/jumuia/jumuia/internal/bucket/bandwidth"
+	"github.com/jumuia/jumuia/internal/event"
+	"github.com/jumuia/jumuia/internal/grid"
+	xioutil "github.com/jumuia/jumuia/internal/ioutil"
+	"github.com/jumuia/jumuia/internal/logger"
+	"github.com/jumuia/jumuia/internal/pubsub"
 	"github.com/klauspost/compress/zstd"
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/madmin-go/v3/logger/log"
-	"github.com/minio/minio/internal/bucket/bandwidth"
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/grid"
-	xioutil "github.com/minio/minio/internal/ioutil"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/pubsub"
 	"github.com/minio/mux"
 )
 

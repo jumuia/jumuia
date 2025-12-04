@@ -28,10 +28,10 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/once"
-	"github.com/minio/minio/internal/store"
+	"github.com/jumuia/jumuia/internal/event"
+	"github.com/jumuia/jumuia/internal/logger"
+	"github.com/jumuia/jumuia/internal/once"
+	"github.com/jumuia/jumuia/internal/store"
 	xnet "github.com/minio/pkg/v3/net"
 	"github.com/rabbitmq/amqp091-go"
 )

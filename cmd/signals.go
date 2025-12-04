@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/coreos/go-systemd/v22/daemon"
-	"github.com/minio/minio/internal/logger"
+	"github.com/jumuia/jumuia/internal/logger"
 )
 
 func shutdownHealMRFWithTimeout() {

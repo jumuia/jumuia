@@ -24,11 +24,11 @@ import (
 	"strconv"
 	"time"
 
+	internalAudit "github.com/jumuia/jumuia/internal/logger/message/audit"
+	"github.com/jumuia/jumuia/internal/mcontext"
 	"github.com/minio/madmin-go/v3/logger/audit"
-	internalAudit "github.com/minio/minio/internal/logger/message/audit"
-	"github.com/minio/minio/internal/mcontext"
 
-	xhttp "github.com/minio/minio/internal/http"
+	xhttp "github.com/jumuia/jumuia/internal/http"
 )
 
 const contextAuditKey = contextKeyType("audit-entry")

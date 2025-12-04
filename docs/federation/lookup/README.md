@@ -17,7 +17,7 @@ Bucket lookup from DNS federation requires two dependencies
 
 ## Architecture
 
-![bucket-lookup](https://github.com/minio/minio/blob/master/docs/federation/lookup/bucket-lookup.png?raw=true)
+![bucket-lookup](https://github.com/jumuia/jumuia/blob/master/docs/federation/lookup/bucket-lookup.png?raw=true)
 
 ### Environment variables
 

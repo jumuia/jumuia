@@ -14,7 +14,7 @@ For enterprise support and actively maintained versions, please see [MinIO AISto
 
 # MinIO Quickstart Guide
 
-[![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/minio/minio/) [![license](https://img.shields.io/badge/license-AGPL%20V3-blue)](https://github.com/minio/minio/blob/master/LICENSE)
+[![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/minio/minio/) [![license](https://img.shields.io/badge/license-AGPL%20V3-blue)](https://github.com/jumuia/jumuia/blob/master/LICENSE)
 
 [![MinIO](https://raw.githubusercontent.com/minio/minio/master/.github/logo.svg?sanitize=true)](https://min.io)
 
@@ -55,7 +55,7 @@ See the sections below for detailed instructions on each method.
 ### Legacy Binary Releases
 
 Historical pre-compiled binary releases remain available for reference but are no longer maintained:
-- GitHub Releases: https://github.com/minio/minio/releases
+- GitHub Releases: https://github.com/jumuia/jumuia/releases
 - Direct downloads: https://dl.min.io/server/minio/release/
 
 **These legacy binaries will not receive updates.** We strongly recommend using source builds for access to the latest features, bug fixes, and security updates.
@@ -125,7 +125,7 @@ See the [MinIO Container](https://docs.min.io/community/minio-object-store/opera
 There are two paths for installing MinIO onto Kubernetes infrastructure:
 
 - Use the [MinIO Operator](https://github.com/minio/operator)
-- Use the community-maintained [Helm charts](https://github.com/minio/minio/tree/master/helm/minio)
+- Use the community-maintained [Helm charts](https://github.com/jumuia/jumuia/tree/master/helm/minio)
 
 See the [MinIO Documentation](https://docs.min.io/community/minio-object-store/operations/deployments/kubernetes.html) for guidance on deploying using the Operator.
 The Community Helm chart has instructions in the folder-level README.
@@ -165,10 +165,10 @@ Follow the MinIO Client [Quickstart Guide](https://docs.min.io/community/minio-o
 
 ## Contribute to MinIO Project
 
-Please follow MinIO [Contributor's Guide](https://github.com/minio/minio/blob/master/CONTRIBUTING.md) for guidance on making new contributions to the repository.
+Please follow MinIO [Contributor's Guide](https://github.com/jumuia/jumuia/blob/master/CONTRIBUTING.md) for guidance on making new contributions to the repository.
 
 ## License
 
-- MinIO source is licensed under the [GNU AGPLv3](https://github.com/minio/minio/blob/master/LICENSE).
-- MinIO [documentation](https://github.com/minio/minio/tree/master/docs) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-- [License Compliance](https://github.com/minio/minio/blob/master/COMPLIANCE.md)
+- MinIO source is licensed under the [GNU AGPLv3](https://github.com/jumuia/jumuia/blob/master/LICENSE).
+- MinIO [documentation](https://github.com/jumuia/jumuia/tree/master/docs) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- [License Compliance](https://github.com/jumuia/jumuia/blob/master/COMPLIANCE.md)

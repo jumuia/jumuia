@@ -33,9 +33,9 @@ import (
 
 	"github.com/cespare/xxhash/v2"
 	"github.com/dustin/go-humanize"
+	"github.com/jumuia/jumuia/internal/bucket/lifecycle"
 	"github.com/klauspost/compress/zstd"
 	"github.com/minio/madmin-go/v3"
-	"github.com/minio/minio/internal/bucket/lifecycle"
 	"github.com/tinylib/msgp/msgp"
 	"github.com/valyala/bytebufferpool"
 )

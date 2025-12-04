@@ -24,8 +24,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/minio/minio/internal/grid"
-	xioutil "github.com/minio/minio/internal/ioutil"
+	"github.com/jumuia/jumuia/internal/grid"
+	xioutil "github.com/jumuia/jumuia/internal/ioutil"
 	"github.com/valyala/bytebufferpool"
 )
 

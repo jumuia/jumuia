@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/minio/minio/internal/logger/target/testlogger"
+	"github.com/jumuia/jumuia/internal/logger/target/testlogger"
 )
 
 func BenchmarkRequests(b *testing.B) {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/minio/minio/internal/grid"
-	"github.com/minio/minio/internal/logger"
+	"github.com/jumuia/jumuia/internal/grid"
+	"github.com/jumuia/jumuia/internal/logger"
 )
 
 func proxyLogIf(ctx context.Context, err error, errKind ...any) {

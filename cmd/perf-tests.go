@@ -31,11 +31,11 @@ import (
 	"time"
 
 	"github.com/dustin/go-humanize"
+	xhttp "github.com/jumuia/jumuia/internal/http"
+	xioutil "github.com/jumuia/jumuia/internal/ioutil"
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
-	xhttp "github.com/minio/minio/internal/http"
-	xioutil "github.com/minio/minio/internal/ioutil"
 	"github.com/minio/pkg/v3/randreader"
 )
 

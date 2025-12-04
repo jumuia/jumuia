@@ -24,12 +24,12 @@ import (
 	"sync"
 	"sync/atomic"
 
+	"github.com/jumuia/jumuia/internal/logger"
+	"github.com/jumuia/jumuia/internal/logger/target/console"
+	types "github.com/jumuia/jumuia/internal/logger/target/loggertypes"
+	"github.com/jumuia/jumuia/internal/pubsub"
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/madmin-go/v3/logger/log"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/logger/target/console"
-	types "github.com/minio/minio/internal/logger/target/loggertypes"
-	"github.com/minio/minio/internal/pubsub"
 	xnet "github.com/minio/pkg/v3/net"
 )
 

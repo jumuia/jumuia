@@ -17,7 +17,7 @@
 
 package drive
 
-import "github.com/minio/minio/internal/config"
+import "github.com/jumuia/jumuia/internal/config"
 
 var (
 	// MaxTimeout is the max timeout for drive

@@ -8,7 +8,7 @@ Start by forking the MinIO GitHub repository, make changes in a branch and then 
 
 ### Setup your MinIO GitHub Repository
 
-Fork [MinIO upstream](https://github.com/minio/minio/fork) source repository to your own personal repository. Copy the URL of your MinIO fork (you will need it for the `git clone` command below).
+Fork [MinIO upstream](https://github.com/jumuia/jumuia/fork) source repository to your own personal repository. Copy the URL of your MinIO fork (you will need it for the `git clone` command below).
 
 ```sh
 git clone https://github.com/minio/minio

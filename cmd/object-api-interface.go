@@ -23,13 +23,13 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/jumuia/jumuia/internal/hash"
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/minio-go/v7/pkg/encrypt"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/internal/hash"
 
-	"github.com/minio/minio/internal/bucket/replication"
-	xioutil "github.com/minio/minio/internal/ioutil"
+	"github.com/jumuia/jumuia/internal/bucket/replication"
+	xioutil "github.com/jumuia/jumuia/internal/ioutil"
 )
 
 //go:generate msgp -file $GOFILE -io=false -tests=false -unexported=false

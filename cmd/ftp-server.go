@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/minio/minio/internal/logger"
+	"github.com/jumuia/jumuia/internal/logger"
 	ftp "goftp.io/server/v2"
 )
 

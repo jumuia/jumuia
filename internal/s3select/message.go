@@ -27,7 +27,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	xhttp "github.com/minio/minio/internal/http"
+	xhttp "github.com/jumuia/jumuia/internal/http"
 )
 
 // A message is in the format specified in

@@ -33,10 +33,10 @@ import (
 	"time"
 
 	"github.com/cosnicolaou/pbzip2"
+	xioutil "github.com/jumuia/jumuia/internal/ioutil"
 	"github.com/klauspost/compress/s2"
 	"github.com/klauspost/compress/zstd"
 	gzip "github.com/klauspost/pgzip"
-	xioutil "github.com/minio/minio/internal/ioutil"
 	"github.com/pierrec/lz4/v4"
 )
 
