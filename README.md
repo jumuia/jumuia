@@ -1,14 +1,10 @@
 # Maintenance Mode
 
-**This project is currently under maintenance and is not accepting new changes.**
+**This project is a hard fork of [MinIO](https://github.com/minio/minio).**
 
-- The codebase is in a maintenance-only state
-- No new features, enhancements, or pull requests will be accepted
-- Critical security fixes may be evaluated on a case-by-case basis
-- Existing issues and pull requests will not be actively reviewed
-- Community support continues on a best-effort basis through [Slack](https://slack.min.io)
-
-For enterprise support and actively maintained versions, please see [MinIO AIStor](https://www.min.io/product/aistor).
+For some reason (I am sure very valid) the MinIO project was moved to maintenance mode on 3rd December 2025.
+Jumuia is a hard fork of the MinIO code base which is licensed under AGPL v3.
+It is intended to be a community maintained fork where features will be added and maintained.
 
 ---
 
