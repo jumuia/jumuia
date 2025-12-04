@@ -1,4 +1,4 @@
-# Maintenance Mode
+# Hard Fork
 
 **This project is a hard fork of [MinIO](https://github.com/minio/minio).**
 
