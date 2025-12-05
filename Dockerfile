@@ -1,18 +1,13 @@
-FROM minio/minio:latest
+FROM golang:latest AS builder
+WORKDIR /go/src/app
+COPY . .
+RUN make
 
-ARG TARGETARCH
-ARG RELEASE
-
-RUN chmod -R 777 /usr/bin
-
-COPY ./minio-${TARGETARCH}.${RELEASE} /usr/bin/minio
-COPY ./minio-${TARGETARCH}.${RELEASE}.minisig /usr/bin/minio.minisig
-COPY ./minio-${TARGETARCH}.${RELEASE}.sha256sum /usr/bin/minio.sha256sum
-
-COPY dockerscripts/docker-entrypoint.sh /usr/bin/docker-entrypoint.sh
-
-ENTRYPOINT ["/usr/bin/docker-entrypoint.sh"]
-
+# https://github.com/GoogleContainerTools/distroless
+FROM gcr.io/distroless/static-debian12
+WORKDIR /root/
+COPY --from=builder /go/src/app/minio .
+# COPY --from=builder dockerscripts/docker-entrypoint.sh ./docker-entrypoint.sh
+# ENTRYPOINT ["./docker-entrypoint.sh"]
 VOLUME ["/data"]
-
-CMD ["minio"]
+CMD [ "./minio", "server", "/data" ]
